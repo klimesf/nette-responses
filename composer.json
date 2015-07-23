@@ -1,16 +1,25 @@
 {
-    "name": "klimesf/nette-responses",
-    "description": "Bundle of Nette\\Application\\IResponse implementations.",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Filip Klimes",
-            "email": "filip@filipklimes.cz"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "nette/application": "^2.3"
+  "name": "klimesf/nette-responses",
+  "description": "Bundle of Nette\\Application\\IResponse implementations.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Filip Klimes",
+      "email": "filip@filipklimes.cz"
     }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "nette/application": "^2.3"
+  },
+  "require-dev": {
+    "nette/tester": "^1.5",
+    "tracy/tracy": "^2.3"
+  },
+  "autoload": {
+    "psr-0": {
+      "Klimesf\\NetteResponses\\": "src/"
+    }
+  }
 }
