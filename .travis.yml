@@ -23,7 +23,7 @@ before_script:
   - php vendor/php-parallel-lint/parallel-lint.php -e php,phpt --exclude vendor .
   - composer create-project --prefer-source --no-interaction nette/code-checker vendor/code-checker ~2.2
 
-script: vendor/bin/tester -p php ./tests/
+script: vendor/bin/tester ./tests/
 
 after_failure:
   - 'for i in $(find ./tests -name \*.actual); do echo "--- $i"; cat $i; echo; echo; done'
