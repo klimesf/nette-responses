@@ -1,0 +1,16 @@
+{
+    "name": "klimesf/nette-responses",
+    "description": "Bundle of Nette\\Application\\IResponse implementations.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filip Klimes",
+            "email": "filip@filipklimes.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nette/application": "^2.3"
+    }
+}
